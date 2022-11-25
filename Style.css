@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Noto Sans Display', sans-serif;
+    background-color: rgb(247, 238, 233);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    position: fixed;
+    left: 0;
+}
+#menu__toggle{
+    opacity: 0;
+}
+.menu__btn{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 15px;
+    left: 5px;
+    width: 31px;
+    height: 15px;
+    cursor: pointer;
+    z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color:rgb(130,120,111) ;
+}
+.menu__btn >span::before{
+    content: '';
+    top: -10px;
+}
+.menu__btn >span::after{
+    content: '';
+    top:10px;
+}
+.menu__box{
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 265px;
+    margin: 0;
+    margin-left: 5px;
+    margin-top:5px;
+    padding: 40px 0;
+    list-style: none;
+    text-align: center;
+    background-color: rgba(247, 238, 233, 0);
+}
+.menu__item{
+    display: block;
+    padding: 12px 24px;
+    color: rgb(247, 238, 233);
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.menu__item:hover{
+    background-color: rgb(247, 238, 233);
+}
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 35px;
+}
+nav a{
+    background: rgb(130,120,111);
+    transition: 1.5s;
+}
+nav a:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(247, 238, 233);
+}
+section{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+section div{
+    width: 800px;
+    height: auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(230, 218, 212);
+}
+section div h1{
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 10px;
+}
+section div h2{
+    background-color: rgb(207, 190, 180);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+}
+section div ul{
+    list-style-type: none;
+    padding: 0;
+    padding-bottom: 30px;
+    margin: 0px 30px 0px 30px;
+}
+section div h3{
+    padding: 10px;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+section div p{
+    margin: 0;
+    padding:0px; 
+    text-align: justify; 
+    text-indent: 40px;
+}
+.pic{
+    width: 300px;
+    height: 300px;
+    margin-top: 5;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.pic img{
+    width: 300px;
+    height: 300px;
+}
+.info{
+    width: 495px;
+    height: 300px;
+    margin: 5px 0px 0px 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.info ul{
+    list-style-type: none;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 0;
+}
+.info li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+.info img{
+    width: 20px;
+    height: 20px;
+}
+.info p{
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+}
+.info a{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+}
+.info button{
+    width: 80px;
+    height: 30px;
+    margin-top: -10px;
+    border: none;
+    background: rgb(130,120,111);
+    color: rgb(247, 238, 233);
+    border-radius: 20px;
+    font-family: 'Noto Sans Display', sans-serif;
+    transition: 1.5s;
+    font-size: 13px;
+}
+.info button:hover{
+    color: black;
+    background: rgb(226, 214, 207);
+}
+#zgoda{
+    font-size: 13px;
+    text-align: justify; 
+    text-indent: 30px;
+    padding-right: 0;
+}
+.summary ul{
+    margin-top: 35px;
+}
+.languages ul{
+    margin-top: 35px;
+}
+.skills ul{
+    margin-top: 35px;
+}
+.interests ul{
+    margin-top: 35px;
+}
+.links ul{
+    padding-bottom: 0;
+}
+.links li{
+    display: flex;
+    padding-left: 40px;
+    margin: 15px;
+}
+.links img{
+    width: 40px;
+    height: 40px;
+}
+.links p{
+    padding-left: 20px;
+    text-indent: 0;
+    margin-top: 10px;
+}
+body hr{
+    width: 90%;
+    margin-top: 30px;
+}

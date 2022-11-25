@@ -1,0 +1,382 @@
+@media all and (max-width: 320px)
+{
+    .menu__btn{
+        top: 20px;
+        left: 14px;
+        width: 28px;
+    }
+    .menu__box{
+        width: 280px;
+        margin-left: 20px;
+        margin-top: 16px;
+    }
+    .menu__item{
+        font-size: 19px;
+    }
+    section{
+        width: 310px;
+    }
+    section div{
+        width: 310px;
+    }
+    section div h1{
+        font-size: 27.5px;
+    }
+    section div {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    section div h2 {
+        font-size: 19px;
+    }
+    section div ul{
+        margin: 0px 20px 0px 20px;
+        padding-bottom: 20px;
+    }
+    section div h3{
+       margin-top: 5px;
+    }
+    section div p{
+        text-indent: 20px;
+        font-size: 15px;
+    }
+    .pic img{
+        width: 310px;
+        height: 310px;
+    }
+    .info{
+        width: 310px;
+        height: auto;
+        margin: 0;
+        margin-top: 15px;
+    }
+    .info ul{
+        margin: 5px;
+        padding: 0;
+    }
+    .info p{
+        text-indent: 10px;
+    }
+    .summary ul {
+        margin-top: 18px;
+    }
+    .languages ul {
+        margin-top: 18px;
+    }
+    .skills ul {
+        margin-top: 18px;
+    }
+    .interests ul{
+        margin-top: 18px;
+    }
+}
+@media all and (min-width: 320.1px) and (max-width: 375px)
+{
+    .menu__btn{
+        top: 20px;
+        left: 14px;
+        width: 28px;
+    }
+    .menu__box{
+        width: 335px;
+        margin-left: 20px;
+        margin-top: 16px;
+    }
+    .menu__item{
+        font-size: 20px;
+    }
+    section{
+        width: 365px;
+    }
+    section div{
+        width: 365px;
+    }
+    section div h1{
+        font-size: 27.5px;
+    }
+    section div {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    section div h2 {
+        font-size: 19px;
+    }
+    section div ul{
+        margin: 0px 20px 0px 20px;
+        padding-bottom: 20px;
+    }
+    section div h3{
+       margin-top: 5px;
+    }
+    section div p{
+        text-indent: 20px;
+        font-size: 15px;
+    }
+    .pic img{
+        width: 365px;
+        height: 365px;
+    }
+    .info{
+        width: 365px;
+        height: auto;
+        margin: 0;
+        margin-top: 70px;
+    }
+    .info ul{
+        margin: 5px;
+        padding: 0;
+    }
+    .info p{
+        text-indent: 10px;
+    }
+    .summary ul {
+        margin-top: 18px;
+    }
+    .languages ul {
+        margin-top: 18px;
+    }
+    .skills ul {
+        margin-top: 18px;
+    }
+    .interests ul{
+        margin-top: 18px;
+    }
+}
+@media all and (min-width: 375.1px) and (max-width: 425px)
+{
+    .menu__btn{
+        top: 20px;
+        left: 14px;
+        width: 28px;
+    }
+    .menu__box{
+        width: 385px;
+        margin-left: 20px;
+        margin-top: 16px;
+    }
+    .menu__item{
+        font-size: 20px;
+    }
+    section{
+        width: 415px;
+    }
+    section div{
+        width: 415px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    section div h1{
+        font-size: 27.5px;
+    }
+    section div h2 {
+        font-size: 19px;
+    }
+    section div ul{
+        margin: 0px 20px 0px 20px;
+        padding-bottom: 20px;
+    }
+    section div h3{
+       margin-top: 5px;
+    }
+    section div p{
+        text-indent: 20px;
+        font-size: 15px;
+    }
+    .pic img{
+        width: 415px;
+        height: 415px;
+    }
+    .info{
+        width: 415px;
+        height: auto;
+        margin: 0;
+        margin-top: 70px;
+    }
+    .info ul{
+        margin: 5px;
+        padding: 0;
+    }
+    .info p{
+        text-indent: 10px;
+    }
+    .summary ul {
+        margin-top: 18px;
+    }
+    .languages ul {
+        margin-top: 18px;
+    }
+    .skills ul {
+        margin-top: 18px;
+    }
+    .interests ul{
+        margin-top: 18px;
+    }
+}
+@media all and (min-width: 425.1px) and (max-width: 768px)
+{
+    .menu__btn{
+        top: 20px;
+        left: 14px;
+        width: 28px;
+    }
+    .menu__box{
+        width: 300px;
+        margin-left: 5px;
+        margin-top: 16px;
+    }
+    .menu__item{
+        font-size: 20px;
+    }
+    section{
+        width: 758px;
+    }
+    section div{
+        width: 758px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .info{
+        width: 453px;
+        height: 300px;
+    }
+    .info ul{
+        padding-right: 20px;
+    }
+}
+@media all and (min-width: 1024px) 
+{}
+@media all and (max-width: 1440px)
+{}
+@media all and (min-width: 1440.1px) and (max-width: 2560px)
+{
+    .menu__btn{
+        top: 30px;
+        left: 13px;
+        width: 55px;
+    }
+    .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after{
+    height: 10px;
+}
+    .menu__btn >span::before{
+        top: -20px;
+    }
+    .menu__btn >span::after{
+        top:20px;
+    }
+    .menu__box{
+        margin-top: 35px;
+        width: 370px;
+    }
+    .menu__item{
+        font-size: 25px;
+    }
+    section{
+        width: 1800px;
+    }
+    section div{
+        width: 1800px;
+    }
+    section div h1{
+        font-size: 60px;
+        padding-top: 20px;
+    }
+    section div h2{
+        font-size: 40px;
+    }
+    section div ul{
+        margin: 0px 70px 0px 70px;
+    }
+    section div h3{
+        font-size: 35px;
+    }
+    section div p{
+        font-size: 27px;
+    }
+    .pic{
+        width: 700px;
+        height: 700px;
+    }
+    .pic img{
+        width: 700px;
+        height: 700px;
+    }
+    .info{
+        width: 1095px;
+        height: 700px;
+    }
+    .info ul{
+        margin: 50px;
+        margin-top: 80px;
+    }
+    .info img{
+        width: 40px;
+        height: 40px;
+    }
+    .info p{
+        font-size: 30px;
+    }
+    .info a{
+        width: 140px;
+        height: 40px;
+        border-radius: 15px;
+    }
+    .info button{
+        width: 140px;
+        height: 40px;
+        margin-top: -4px;
+        font-size: 21px;
+    }
+    .info button:hover{
+        color: black;
+        background: rgb(226, 214, 207);
+    }
+    #zgoda{
+        font-size: 25px;
+        text-indent: 75px;
+        margin-top: 80px;
+    }
+    .experience{
+        padding-bottom: 30px;
+    }
+    .education{
+        padding-bottom: 35px;
+    }
+    .courses{
+        padding-bottom: 40px;
+    }
+    .summary ul{
+        margin-top: 35px;
+    }
+    .languages ul{
+        margin-top: 35px;
+    }
+    .skills ul{
+        margin-top: 35px;
+    }
+    .interests ul{
+        margin-top: 35px;
+    }
+    .links ul{
+        padding-bottom: 0;
+    }
+    .links li{
+        display: flex;
+        padding-left: 40px;
+        margin: 15px;
+    }
+    .links img{
+        width: 40px;
+        height: 40px;
+    }
+    .links p{
+        padding-left: 20px;
+        text-indent: 0;
+        margin-top: 10px;
+    }
+    body hr{
+        width: 90%;
+        margin-top: 30px;
+    }
+}
